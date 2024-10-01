@@ -42,8 +42,8 @@ def test_daily_min_string():
 @pytest.mark.parametrize(
     "test, expected, expect_raises",
     [
-        ... # previous test cases here, with None for expect_raises, except for the next one - add ValueError
-        ... # as an expected exception (since it has a negative input value)
+        # previous test cases here, with None for expect_raises, except for the next one - add ValueError
+        # as an expected exception (since it has a negative input value)
         (
             [[-1, 2, 3], [4, 5, 6], [7, 8, 9]],
             [[0, 0.67, 1], [0.67, 0.83, 1], [0.78, 0.89, 1]],
